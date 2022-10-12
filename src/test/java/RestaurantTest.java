@@ -69,5 +69,6 @@ class RestaurantTest {
         itemsList.add("Sweet corn soup");
         itemsList.add("Vegetable lasagne");
         int orderValue = restaurant.getOrderValue(itemsList);
+        assertEquals(388, orderValue);
     }
 }
